@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <cstdlib>
 #include <iomanip>
-#include </home/cristi/Documents/Code/cpp/Snake.cpp>
+#include </home/flexksx/GitHub/SnakeCPP/Snake.cpp>
 #include <ctime>  // Include <ctime> for time() function
 #ifdef _WIN32
 #include <conio.h>
@@ -168,7 +168,7 @@ int main() {
 
     //Rules
     cout<<"Control with W-up, S-down, D-right, A-left. Press Q to quit."<<endl;
-
+    cout<<"Hello, WOrld!"<<endl;
 
     // Initialize the snake
     Snake *snake = new Snake();
